@@ -68,11 +68,11 @@ namespace BinarySearchTree
             {
                 Console.WriteLine("current element is {0} in BST", node.NodeData);
             }
-            if (element.CompareTo(node.NodeData) < 0) 
+            if (element.CompareTo(node.NodeData) < 0) ;
             {
                 IfExists(element, node.LeftTree);
             }
-            if (element.CompareTo(node.NodeData) > 0) 
+            if (element.CompareTo(node.NodeData) > 0) ;
             {
                 IfExists(element, node.RightTree);
             }
